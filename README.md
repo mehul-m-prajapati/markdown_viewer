@@ -1,4 +1,4 @@
-## 📝 Live Markdown Viewer
+### 📝 Live Markdown Viewer
 
 - GitHub-flavored Markdown support (GFM)
 - Real-time live preview side-by-side with the editor
@@ -7,7 +7,7 @@
 
 ---
 
-## Features
+### Features
 
 - Write Markdown in the left panel and instantly see the rendered preview on the right
 - Supports tables, strikethrough, task lists, autolinks, and more via `remark-gfm`
@@ -17,7 +17,7 @@
 
 ---
 
-## Tech Stack
+### Tech Stack
 
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
@@ -29,14 +29,14 @@
 
 ---
 
-## Setup
+### Setup
 
-### Prerequisites
+#### Prerequisites
 
 - Node.js 16+ installed
 - Yarn or npm
 
-### Installation
+#### Installation
 
 ```bash
 git clone https://github.com/yourusername/markdown-viewer.git
@@ -58,6 +58,7 @@ npm run dev
 /next.config.ts       # Next.js config
 /package.json
 ```
+---
 
 ### Acknowledgements
 
