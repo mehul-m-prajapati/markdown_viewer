@@ -1,7 +1,5 @@
 ## 📝 Live Markdown Viewer
 
-A **live Markdown editor and viewer** built with Next.js, React, and Tailwind CSS — featuring:
-
 - GitHub-flavored Markdown support (GFM)
 - Real-time live preview side-by-side with the editor
 - Syntax highlighting for code blocks using `highlight.js`
@@ -11,11 +9,11 @@ A **live Markdown editor and viewer** built with Next.js, React, and Tailwind CS
 
 ## Features
 
-- Write Markdown on the left panel and instantly see the rendered preview on the right
+- Write Markdown in the left panel and instantly see the rendered preview on the right
 - Supports tables, strikethrough, task lists, autolinks, and more via `remark-gfm`
 - Syntax-highlighted code blocks with `rehype-highlight` and GitHub Dark theme style
 - Responsive design with Tailwind CSS for a clean, modern UI
-- Uses official GitHub Markdown CSS for authentic GitHub look and feel
+- Uses official GitHub Markdown CSS for an authentic GitHub look and feel
 
 ---
 
