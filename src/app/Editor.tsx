@@ -46,9 +46,10 @@ Type your markdown on the **left**, and see the **preview** on the right.
         </main>
 
         <footer className="bg-gray-800 text-gray-400 text-sm
-        text-center p-3 border-t border-gray-700">
-            Built with Next.js, Tailwind, and Typescript.
+            text-center p-3 border-t border-gray-700">
+            © {new Date().getFullYear()} Markdown Viewer. All rights reserved.
         </footer>
+
     </div>
   )
 }
