@@ -1,8 +1,16 @@
+import Head from 'next/head'
+import Editor from './Editor';
+
 
 export default function Home() {
   return (
-    <div>
-        My App
-    </div>
+    <>
+        <Head>
+            <title>Markdown Viewer</title>
+            <meta name="description" content="Live Markdown Viewer" />
+        </Head>
+
+        <Editor />
+    </>
   );
 }
