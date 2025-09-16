@@ -37,10 +37,11 @@ Type your markdown on the **left**, and see the **preview** on the right.
             {/* Preview Panel */}
             <div className="w-full md:w-1/2 p-6 overflow-y-auto markdown-body bg-white text-black">
                 <ReactMarkdown
-                    children={markdown}
                     remarkPlugins={[remarkGfm]}
                     rehypePlugins={[rehypeHighlight]}
-                />
+                >
+                    {markdown}
+                </ReactMarkdown>
             </div>
         </main>
 
